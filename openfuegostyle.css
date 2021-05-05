@@ -148,7 +148,9 @@ this css. element centers text elements*/
   flex-direction: row;
   text-align: left;
   font-size: 30px;
-  color: whitesmoke;    
+  color: whitesmoke; 
+  overflow-x: hidden !important;
+
 }
 
 .flex-item-left {
@@ -167,6 +169,7 @@ this css. element centers text elements*/
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+    overflow-x: hidden !important;
   }
 }
     
