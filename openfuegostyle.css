@@ -1,7 +1,12 @@
+* {
+    outline: 1px solid red;
+}
+
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  word-wrap:break-word;
 }
 
 .hero-image {
