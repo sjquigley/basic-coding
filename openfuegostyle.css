@@ -149,7 +149,6 @@ this css. element centers text elements*/
   text-align: left;
   font-size: 30px;
   color: whitesmoke; 
-  overflow-x: hidden !important;
 
 }
 
@@ -169,7 +168,6 @@ this css. element centers text elements*/
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
-    overflow-x: hidden !important;
   }
 }
     
